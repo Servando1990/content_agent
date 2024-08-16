@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "content_agent"
+version = "0.1.0"
+description = "content_agent using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = "^0.41.1" }
+
+[tool.poetry.scripts]
+content_agent = "content_agent.main:run"
+train = "content_agent.main:train"
+replay = "content_agent.main:replay"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

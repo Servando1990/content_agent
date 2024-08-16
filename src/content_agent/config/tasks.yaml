@@ -1,0 +1,18 @@
+content_strategist_task:
+  description: >
+    Plan and align content with the {brand_name} voice and  {target_audience} audience preferences
+  expected_output: >
+    A content strategy that aligns with the {brand_name} voice and {target_audience} audience preferences
+
+linkedin_post_task:
+  description: >
+    Create professional and engaging LinkedIn posts on {topic}, aligning with LinkedIn's networking focus.
+  expected_output: >
+    3-5 LinkedIn posts that are ready for publication, focused on {topic}.
+
+review_task:
+  description: >
+    Review and finalize all posts to ensure they are polished, error-free, and on-brand.
+    Ensure that the tone remains consistent with the {brand_name}.
+  expected_output: >
+    All posts reviewed, edited, and finalized for publication.
